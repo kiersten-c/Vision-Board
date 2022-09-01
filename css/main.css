@@ -1,0 +1,75 @@
+body {
+    background-color: #E8E8E8;
+    
+}
+#vision-board {
+    width: 1200px;
+    height: 850px;
+    text-align: center;
+    overflow: auto;
+    background-image: url('../img/background.png');
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.block {
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+}
+.large-block {
+    height: 430px;
+    padding: 75px 35px 0 50px;
+}
+.small-block {
+    height: 210px;
+    padding: 40px 45px 0px 40px;
+}
+.light-bg {
+    background-color: #FFFFFF;
+}
+.dark-bg {
+    background-color: #3B3B3B;
+}
+strong {
+    font-size: 38px;
+    text-transform: capitalize;
+}
+/***** top section *****/
+#grow {
+    text-align: left;
+}
+#grow span {
+    background-color: #FFF44F;
+    padding: 5px;
+}
+/***** middle section *****/
+#money {
+    text-align: left;
+}
+#money span {
+    background-color: #FFF44F;
+    padding: 5px;
+}
+.title {
+    color: #FFFFFF;
+    font-size: 30px; 
+    font-family: 'Montserrat', sans-serif;
+}
+.title span {
+    font-family: 'Permanent Marker', cursive;
+}
+#travel {
+    text-align: right;
+}
+#travel span {
+    background-color: #FFF44F;
+    padding: 5px;
+}
+/***** bottom section *****/
+#zen {
+    text-align: right;
+}
+#zen span {
+    background-color: #FFF44F;
+    padding: 5px;
+}
